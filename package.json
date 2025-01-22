@@ -1,0 +1,38 @@
+{
+  "name": "default-css",
+  "version": "1.0.0",
+  "description": "Responsive default CSS styles for all children elements",
+  "main": "style.css",
+  "keywords": [
+    "CSS Framework",
+    "Default CSS Styles",
+    "Responsive CSS",
+    "Base Styles",
+    "Typography CSS",
+    "Modern CSS Units",
+    "rem and em CSS",
+    "Global Stylesheet",
+    "Quill.js Styles",
+    "HTML Element Styles",
+    "Consistent Design",
+    "Minimal CSS",
+    "Accessible Design",
+    "Cross-Browser Compatible CSS",
+    "Scalable Stylesheet",
+    "Universal CSS",
+    "Rich Text Styling",
+    "CSS Reset Alternative",
+    "Customizable CSS Framework",
+    "Lightweight CSS Package"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imtiaz-Zahir/default-css.git"
+  },
+  "author": "Imtiaz Zahir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Imtiaz-Zahir/default-css/issues"
+  },
+  "homepage": "https://github.com/Imtiaz-Zahir/default-css#readme"
+}
