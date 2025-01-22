@@ -1,5 +1,5 @@
 {
-  "name": "default-css",
+  "name": "default-render",
   "version": "1.0.0",
   "description": "Responsive default CSS styles for all children elements",
   "main": "style.css",

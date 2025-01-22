@@ -21,21 +21,21 @@ Here’s an updated section that includes additional installation methods:
 Install the package via NPM:
 
 ```bash
-npm install default-css
+npm install default-render
 ```
 
 ### Yarn
 Install the package using Yarn:
 
 ```bash
-yarn add default-css
+yarn add default-render
 ```
 
 ### PNPM
 Install the package using PNPM:
 
 ```bash
-pnpm add default-css
+pnpm add default-render
 ``` 
 
 --- 
@@ -46,21 +46,21 @@ pnpm add default-css
 To apply the default styles globally, simply import the `style.css` file:
 
 ```javascript
-import 'default-css/style.css';
+import 'default-render/style.css';
 ```
 
 ### Import in a CSS/SCSS File:
 If you are using a custom CSS or SCSS file, include the package:
 
 ```css
-@import 'default-css/style.css';
+@import 'default-render/style.css';
 ```
 
 ### Add as a `<link>` in HTML:
 After installing the package via NPM, link it directly in your HTML:
 
 ```html
-<link rel="stylesheet" href="./node_modules/default-css/style.css">
+<link rel="stylesheet" href="./node_modules/default-render/style.css">
 ```
 
 ### React Integration
@@ -68,14 +68,14 @@ After installing the package via NPM, link it directly in your HTML:
 To use **Default CSS** in a React project, simply import the `style.css` file in your main JavaScript/TypeScript file:
 
 ```javascript
-import 'default-css/style.css';
+import 'default-render/style.css';
 
 function App() {
   return (
     <div className="App">
       <h1>Quill.js Output with Default CSS</h1>
       <div id="editor"></div>
-      <div id="output" className="default-css">
+      <div id="output" className="default-render">
         {/* Quill.js content will be styled here */}
       </div>
     </div>
@@ -90,7 +90,7 @@ export default App;
 In a Vue.js project, include the **Default CSS** stylesheet globally by importing it in your `main.js` or `main.ts`:
 
 ```javascript
-import 'default-css/style.css';
+import 'default-render/style.css';
 
 new Vue({
   render: h => h(App),
@@ -101,7 +101,7 @@ In your Vue component, you can then use the Quill.js output container:
 
 ```html
 <template>
-  <div id="output" class="default-css">
+  <div id="output" class="default-render">
     <!-- Quill.js content will be styled here -->
   </div>
 </template>
@@ -122,14 +122,14 @@ In an Angular project, import **Default CSS** in your `angular.json` file to app
 ```json
 "styles": [
   "src/styles.css",
-  "node_modules/default-css/style.css"
+  "node_modules/default-render/style.css"
 ]
 ```
 
 Then, in your component template, use the Quill.js output container:
 
 ```html
-<div id="output" class="default-css">
+<div id="output" class="default-render">
   <!-- Quill.js content will be styled here -->
 </div>
 ```
@@ -148,14 +148,14 @@ Here’s an example of how **Default CSS** will work with **Quill.js** to style 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quill.js with Default CSS</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.3/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="./node_modules/default-css/style.css"> <!-- Import default styles -->
+  <link rel="stylesheet" href="./node_modules/default-render/style.css"> <!-- Import default styles -->
 </head>
 <body>
   <div class="container mx-auto p-4">
     <h1 class="text-3xl font-bold mb-4">Quill.js Output with Default CSS</h1>
     <div id="editor"></div>
-    <div id="output" class="mt-4 default-css">
-      <!-- Quill.js will render here, and its output will be styled by default-css -->
+    <div id="output" class="mt-4 default-render">
+      <!-- Quill.js will render here, and its output will be styled by default-render -->
     </div>
   </div>
 </body>
