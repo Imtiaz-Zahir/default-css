@@ -75,7 +75,7 @@ function App() {
     <div className="App">
       <h1>Quill.js Output with Default CSS</h1>
       <div id="editor"></div>
-      <div id="output" className="default-render">
+      <div id="output" className="default-css">
         {/* Quill.js content will be styled here */}
       </div>
     </div>
@@ -101,7 +101,7 @@ In your Vue component, you can then use the Quill.js output container:
 
 ```html
 <template>
-  <div id="output" class="default-render">
+  <div id="output" class="default-css">
     <!-- Quill.js content will be styled here -->
   </div>
 </template>
@@ -129,7 +129,7 @@ In an Angular project, import **Default CSS** in your `angular.json` file to app
 Then, in your component template, use the Quill.js output container:
 
 ```html
-<div id="output" class="default-render">
+<div id="output" class="default-css">
   <!-- Quill.js content will be styled here -->
 </div>
 ```
@@ -154,7 +154,7 @@ Here’s an example of how **Default CSS** will work with **Quill.js** to style 
   <div class="container mx-auto p-4">
     <h1 class="text-3xl font-bold mb-4">Quill.js Output with Default CSS</h1>
     <div id="editor"></div>
-    <div id="output" class="mt-4 default-render">
+    <div id="output" class="mt-4 default-css">
       <!-- Quill.js will render here, and its output will be styled by default-render -->
     </div>
   </div>
