@@ -1,6 +1,6 @@
 {
   "name": "default-render",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Responsive default CSS styles for all children elements",
   "main": "style.css",
   "keywords": [

@@ -1,4 +1,4 @@
-# Default CSS
+# Default Render
 
 A lightweight CSS stylesheet for rendering **Quill.js** output. Designed to ensure that Quill's generated HTML content is styled consistently, while working seamlessly with global frameworks like **Tailwind CSS** and other default styles.
 
@@ -65,7 +65,7 @@ After installing the package via NPM, link it directly in your HTML:
 
 ### React Integration
 
-To use **Default CSS** in a React project, simply import the `style.css` file in your main JavaScript/TypeScript file:
+To use **Default Render** in a React project, simply import the `style.css` file in your main JavaScript/TypeScript file:
 
 ```javascript
 import 'default-render/style.css';
@@ -73,7 +73,7 @@ import 'default-render/style.css';
 function App() {
   return (
     <div className="App">
-      <h1>Quill.js Output with Default CSS</h1>
+      <h1>Quill.js Output with Default Render</h1>
       <div id="editor"></div>
       <div id="output" className="default-css">
         {/* Quill.js content will be styled here */}
@@ -87,7 +87,7 @@ export default App;
 
 ### Vue Integration
 
-In a Vue.js project, include the **Default CSS** stylesheet globally by importing it in your `main.js` or `main.ts`:
+In a Vue.js project, include the **Default Render** stylesheet globally by importing it in your `main.js` or `main.ts`:
 
 ```javascript
 import 'default-render/style.css';
@@ -117,7 +117,7 @@ export default {
 
 ### Angular Integration
 
-In an Angular project, import **Default CSS** in your `angular.json` file to apply globally:
+In an Angular project, import **Default Render** in your `angular.json` file to apply globally:
 
 ```json
 "styles": [
@@ -138,7 +138,7 @@ Then, in your component template, use the Quill.js output container:
 
 ## Example Integration with Quill.js Output
 
-Here’s an example of how **Default CSS** will work with **Quill.js** to style its output and ensure it integrates well with **Tailwind CSS** or other global styles.
+Here’s an example of how **Default Render** will work with **Quill.js** to style its output and ensure it integrates well with **Tailwind CSS** or other global styles.
 
 ```html
 <!DOCTYPE html>
@@ -146,13 +146,13 @@ Here’s an example of how **Default CSS** will work with **Quill.js** to style 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quill.js with Default CSS</title>
+  <title>Quill.js with Default Render</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.3/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./node_modules/default-render/style.css"> <!-- Import default styles -->
 </head>
 <body>
   <div class="container mx-auto p-4">
-    <h1 class="text-3xl font-bold mb-4">Quill.js Output with Default CSS</h1>
+    <h1 class="text-3xl font-bold mb-4">Quill.js Output with Default Render</h1>
     <div id="editor"></div>
     <div id="output" class="mt-4 default-css">
       <!-- Quill.js will render here, and its output will be styled by default-render -->
@@ -164,7 +164,7 @@ Here’s an example of how **Default CSS** will work with **Quill.js** to style 
 
 In the above example:
 - **Tailwind CSS** is used for the general layout.
-- **Default CSS** styles Quill's rendered output within the `#output` div, ensuring consistency.
+- **Default Render** styles Quill's rendered output within the `#output` div, ensuring consistency.
 
 ---
 
@@ -195,4 +195,4 @@ This project is licensed under the **ISC License**. See the [LICENSE](LICENSE) f
 
 ---
 
-Integrate **Default CSS** with Quill.js and your favorite CSS framework to ensure your content is styled properly across any platform.
+Integrate **Default Render** with Quill.js and your favorite CSS framework to ensure your content is styled properly across any platform.
