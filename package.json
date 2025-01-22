@@ -1,6 +1,6 @@
 {
   "name": "default-render",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Responsive default CSS styles for all children elements",
   "main": "style.css",
   "keywords": [
@@ -27,12 +27,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Imtiaz-Zahir/default-css.git"
+    "url": "git+https://github.com/Imtiaz-Zahir/default-render.git"
   },
   "author": "Imtiaz Zahir",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Imtiaz-Zahir/default-css/issues"
+    "url": "https://github.com/Imtiaz-Zahir/default-render/issues"
   },
-  "homepage": "https://github.com/Imtiaz-Zahir/default-css#readme"
+  "homepage": "https://github.com/Imtiaz-Zahir/default-render#readme"
 }
